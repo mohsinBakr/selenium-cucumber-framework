@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/DemoNopCommerce.feature",
         glue = "StepDefinitions",
         plugin = {
                 "pretty",

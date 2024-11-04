@@ -3,9 +3,9 @@ Feature: Cart tests
 
   Background: Home page of bhinneka.com
 
-#  @Failed
+  @Failed
   Scenario: Login after access cart without authorizations
     Given Home page without authorizations
     When Go to cart page without authorizations
     Given Login page is displayed
-#    And This is for invalid locators
+    And This is for invalid locators
